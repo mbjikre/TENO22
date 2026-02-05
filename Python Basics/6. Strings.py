@@ -18,3 +18,6 @@ O O
 '''
 
 print(long_string)
+
+combined = username + ' & ' + password
+print(combined)
