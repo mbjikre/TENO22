@@ -33,5 +33,30 @@ print(li)
 print(nl)
 
 li = [1,2,3,4,5]
-print(li.index(5))
+print(li.index(3,0,3))
 
+li = ['a', 'b', 'c', 'd', 'e', 'a']
+print('a' in li)
+print(li.count('a'))
+print(sorted(li))
+li.sort()
+print(li)
+
+nll = [1, 2, 3, 4, 5, 1]
+nll.sort()
+print(nll[::-1])
+print(nll)
+
+print(list(range(1,100)))
+
+dil = ' '
+ndl = dil.join(['hi', 'why', 'die', 'sigh'])
+print(ndl)
+
+a,b,c,*o,d,e = 1,2,3,4,5,6,7,8,9
+print(a)
+print(b)
+print(c)
+print(o)
+print(d)
+print(e)
