@@ -29,3 +29,9 @@ print(type(int(str(5))))
 
 weather = "It\'s \t\"kind of\"\t sunny \nHave a good day"
 print(weather)
+
+li = [1,2,3,4,5]
+print(li)
+
+li = [1,2,3,4,5,6]
+print(li)
