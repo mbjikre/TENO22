@@ -25,5 +25,16 @@ tset.clear()
 print(fset)
 print(tset)
 
+print('\n')
 ftset = {1,2,3,4,5,6,7}
 siset = {3,4,5,6,7,8,9}
+#print(ftset.difference(siset))
+#fset.discard(5)
+#ftset.difference_update(siset)
+print(ftset.intersection(siset))
+print(ftset.isdisjoint(siset))
+print(ftset.issubset(siset))
+print(ftset.issuperset(siset))
+print(ftset.union(siset))
+print(ftset)
+print(siset)
