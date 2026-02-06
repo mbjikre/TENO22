@@ -26,5 +26,3 @@ print(22 in user.values())
 user1 = dict(abc = '123')
 print(type(user1))
 
-tup = (1,2,3,4,5)
-print(5 in tup)
