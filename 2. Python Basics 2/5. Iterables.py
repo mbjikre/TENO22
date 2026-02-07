@@ -30,4 +30,3 @@ for a in range(1,5):
 
 for _,char in enumerate(range(10,0,-1)):
     print(_,char)
-
