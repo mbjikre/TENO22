@@ -10,19 +10,19 @@ for i in fst:
         print('\nEnter TWO numbers')
         c = int(input())
         d = int(input())
-        print(f'The result is : {c*d}')
+        print(f'The result is : {c/d}')
     
     elif i == '3':
         print('\nEnter TWO numbers')
         c = int(input())
         d = int(input())
-        print(f'The result is : {c*d}')
+        print(f'The result is : {c+d}')
     
     elif i == '4':
         print('\nEnter TWO numbers')
         c = int(input())
         d = int(input())
-        print(f'The result is : {c*d}')
+        print(f'The result is : {c-d}')
     
     else:
         print('Wrong input')
