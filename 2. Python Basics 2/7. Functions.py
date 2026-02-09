@@ -20,6 +20,3 @@ for col in sm:
             print(' ', end='')
     print('')
 
-print(col)
-print(row)
-print(sm)
