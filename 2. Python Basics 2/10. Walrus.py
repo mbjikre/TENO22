@@ -11,3 +11,13 @@ while ((n := len(a))) > 1:
     print(f'Lenght is {n} elements long : \n{a}')
     a = a[:-1]
     #print(a)
+
+s = 1
+def fst():
+    def sst():
+        s = 5
+        return s
+    return s
+
+print(s)
+print(fst())
