@@ -20,3 +20,11 @@ for col in sm:
             print(' ', end='')
     print('')
 
+li = ['a', 'b', 'c', 'd', 'd', 'e', 'f', 'n', 'm', 'n']
+lic = []
+for i in li:
+    if li.count(i) > 1:
+        if i not in lic:
+            lic.append(i)
+
+print(lic)
