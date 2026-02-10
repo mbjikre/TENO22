@@ -22,8 +22,9 @@ print(sup(1,2,3,4,5, num1=5, num2=10))
 def hie(lis):
     li = []
     for i in lis:
-        if not i % 2 and i not in li:
+        if i % 2 == 0:
             li.append(i)
+    print(li)
     return max(li)
 print(hie([10,2,3,4,8,11]))
 
