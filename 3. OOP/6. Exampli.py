@@ -5,7 +5,7 @@ class first():
         
     def caller(self):
         for call in self.fn1:
-            return print('caller output')
+            return f'caller output'
     
 class second():
     def __init__(self, fn2):
