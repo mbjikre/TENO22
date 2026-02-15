@@ -67,7 +67,6 @@ my_pets = Pets(my_cats)
 my_pets.walk()
 
 for char in [cat1, cat2, cat3]:
-    char.walk()
-    print(char)
+    print(char.walk())
 
 print(issubclass(Cat, Pets))
