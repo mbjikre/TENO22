@@ -70,4 +70,4 @@ for char in [cat1, cat2, cat3]:
     char.walk()
     print(char)
 
-print(isinstance(cat1, Pets))
+print(issubclass(Cat, Pets))
