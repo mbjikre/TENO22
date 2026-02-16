@@ -49,7 +49,7 @@ class Sally(Cat):
         return f'{sounds}'
 
 class Addon(Cat):
-    def run(self, sounds):
+    def sing(self, sounds):
         return f'{sounds}'
 
 my_cats = []
