@@ -34,7 +34,8 @@ class MyDescriptor:
     
     @staticmethod
     def tst():
-        return MyDescriptor()
+        print(MyDescriptor())
+        return MyDescriptor
 
 
 class Test:
