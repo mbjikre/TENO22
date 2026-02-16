@@ -26,3 +26,22 @@ print(issubclass(Try, object))
 ins1 = Try2.passer(5,5)
 
 print(ins1)
+
+class MyDescriptor:
+    def __get__(self, instance, owner):
+        print("Getting the value")
+        return 42
+    
+    @staticmethod
+    def tst():
+        return MyDescriptor()
+
+
+class Test:
+    x = MyDescriptor()
+
+
+t = Test()
+print(t.x)
+b = MyDescriptor.tst()
+print(b)
