@@ -9,5 +9,13 @@ class user:
         else:
             print('credential error')
 
+    def run(self):
+        print(f'Well the username is {self.username} and the password is {self.password}')
+
+    def errorcheck(self):
+        print(f'check if this print out')
+
 si = user()
 si.sign_in('username', '123')
+si.run()
+si.errorcheck()
