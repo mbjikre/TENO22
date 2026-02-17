@@ -1,12 +1,44 @@
-class calc:
-    def add(self, i1, i2):
-        self.i1 = i1
-        self.i2 = i2
+class Pets():
+    animals = []
+    def __init__(self, animals):
+        self.animals = animals
 
-class adds:
-    def add(self, i1, i2):
-        return i1 + i2
+    def walk(self):
+        for animal in self.animals:
+            print(animal.walk())
+            
+class Cat():
+    is_lazy = True
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def walk(self):
+        return f'{self.name} is {self.age} years old and {self.name} is just walking around'
+
+class Simon(Cat):
+    def sing(self, sounds):
+        return f'{sounds}'
+
+class Sally(Cat):
+    def sing(self, sounds):
+        return f'{sounds}'
     
-addi = calc()
-addi.add(5,10)
-print(addi)
+class Addon(Cat):
+    def sing(self, sounds):
+        return f'{sounds}'
+
+my_cats = []
+cat1 = Simon('Simon', 5)
+cat2 = Sally('Sally', 10)
+cat3 = Addon('Addon', 15)
+my_cats.append(cat1)
+my_cats.append(cat2)
+my_cats.append(cat3)
+
+my_pets = Pets(my_cats)
+my_pets.walk()
+
+for cats in [cat1, cat2, cat3]:
+    print(cats.walk())
