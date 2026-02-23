@@ -21,3 +21,8 @@ print(duplicates)
 
 df = list(set([v for v in some_list if some_list.count(v)>1]))
 print(df)
+
+for k in range(0,100):
+    for v in range(0,100):
+        print(k**v)
+    
